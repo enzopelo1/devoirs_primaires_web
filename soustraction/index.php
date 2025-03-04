@@ -4,6 +4,12 @@ include 'utils.php';
 log_adresse_ip("logs/log.txt", "index.php");
 
 session_start();
+
+//Si l'utilisateur n'est pas connecté, on le redirige vers la page de connexion
+if (!isset($_SESSION['user'])) {
+	header('Location: ../login.php');
+	exit();
+}
 $_SESSION['nbMaxQuestions'] = 10;
 $_SESSION['nbQuestion'] = 0;
 $_SESSION['nbBonneReponse'] = 0;

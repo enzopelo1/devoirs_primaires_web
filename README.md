@@ -138,3 +138,10 @@ Le code est commenté pour expliquer les différentes parties et leur fonctionne
 4. Configurez la base de données dans le fichier `config.php`.
 5. Changez les droits en 777 pour les sous-répertoires `logs`, `resultats` et `supprime`.
 6. Accédez à la page d'inscription pour créer un compte et commencer à utiliser le site.
+
+Bonjour Monsieur,
+
+J'ai une petite question, j'ai déjà fini l'application web elle est 100% fonctionnelle.
+Etant donné que je fais mon stage à Lille j'aurais bien aimé profiter du vendredi pour pouvoir emménager là-bas. Est ce que ça serait possible de faire la soutenance jeudi matin avec vous s'il vous plait ?
+
+Enzo :)

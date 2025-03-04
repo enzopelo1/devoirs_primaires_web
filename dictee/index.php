@@ -1,6 +1,13 @@
 <?php
 @ob_start();
 session_start();
+
+//Si l'utilisateur n'est pas connecté, on le redirige vers la page de connexion
+
+if (!isset($_SESSION['user'])) {
+	header('Location: ../login.php');
+	exit();
+}
 include 'utils.php';
 log_adresse_ip("logs/log.txt", "index.php");
 
